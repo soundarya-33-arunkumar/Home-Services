@@ -1,0 +1,881 @@
+body{
+    /* background-image: linear-gradient(blue, pink); */
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: tahoma;
+    color: blue;
+}
+
+/* Login css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: calc(50% - 50px);
+}
+h1{
+    margin: 50px;
+    text-align: center;
+    font-size: 22px;
+    top: 8px;
+    padding: 10px;
+}
+.loginbox{
+    max-width: 490px;
+    width: 100%;
+    height: 540px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000000;
+    margin-top: 30px;
+    top: 50%; 
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 40px;
+    
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 30px;
+    background: lightgray;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+form .form-group .loginbox{
+    position: relative;
+    margin: 10px 0;
+}
+
+.loginbox input i{
+    position: absolute;
+}
+
+.loginname-div{
+    /* display: flex; */
+    display: block;
+}
+
+.loginname-div input{
+    width: 33%;
+    margin-right: 7px;
+    border-radius: 10px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #3383f4;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #003a8a;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.icon{
+    padding: 10px;
+    min-width: 20px;
+}
+
+.login-div input{
+    max-width: 85%;
+    border-radius: 10px;
+
+}
+
+.login-div i{
+    position: absolute;
+}
+
+.loginname-div i{
+    position: absolute;
+}
+
+.login-link{
+    font-size: 20px;
+}
+
+.input-container .input{
+    border-radius: 20px;
+}
+
+.input-container {
+    display: absolute;
+}
+/* Login */
+
+
+
+/* Register */
+.registerbox{
+    max-width: 400px;
+    width: 100%;
+    height: 460px;
+    border-radius: 20px;
+    background: #fff;
+    color: #000000;
+    margin-top: 60px;
+    top: 50%; 
+    left: 83%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 140px 30px;
+    
+}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 30px;
+    background: lightgray;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    height: 100%;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+form .form-group .registerbox{
+    position: relative;
+    margin: 10px 0;
+}
+
+.registerbox input i{
+    position: absolute;
+}
+
+.registname-div{
+    /* display: flex; */
+    display: block;
+}
+
+.registname-div input{
+     max-width: 30%;
+     width: 100%;
+    margin-right: 5px;
+    border-radius: 10px; 
+    display: inline-block;
+}
+.registerbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: #3383f4;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.registerbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #003a8a;
+    color: #000;
+}
+.registerbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.input-container{
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.icon{
+    padding: 10px;
+    min-width: 20px;
+}
+
+.regist-div input{
+    max-width: 80%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.regist-div i{
+    position: absolute;
+    
+}
+.fa-eye{
+    position: absolute;
+    right: 9%;
+    cursor: pointer;
+    color: black;
+}
+
+.fa-eye:hover{
+    color: gray;
+}
+
+
+.registname-div i{
+    position: absolute;
+}
+
+.regist-link{
+    font-size: 20px;
+}
+
+.input-container .input{
+    border-radius: 20px;
+}
+
+.input-container {
+    display: absolute;
+}
+
+
+/* Register */
+
+
+.body-dashboard{
+    background-color: khaki;
+    /* background-image: linear-gradient(blue, pink); */
+    background-image: url(../images/homepage.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: tahoma;
+    color: blue;
+}
+.active {
+    background-color: rgb(211, 183, 108);
+    color: black;
+} 
+  
+.topnav {
+overflow: hidden;
+background-color: transparents;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 20px 30px;
+text-decoration: none;
+font-weight: bold;
+font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: gray;
+font-size: 20px;
+color: white;
+}
+
+/* selected link */
+.topnav a.menu-item.selected {
+    background-color: rgba(131, 84, 50, 0.945);
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+.topnav #logout, #profile {
+    float: right;
+}
+
+
+@media screen and (max-width: 800px) {
+    .topnav a:not(:first-child) {display: none;}
+    .wrapper-dashboard, .wrapper-dash-table{width: 50%;}
+    
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    
+    .topnav #profile{
+        float: left;
+
+    }
+    .topnav #logout{
+        float: left;
+        margin-inline-end: auto;
+    }
+    
+    
+}
+
+@media screen and (max-width: 800px) {
+    .topnav.responsive {position: relative;}
+
+    .wrapper-dashboard, .wrapper-dash-table{width: 50%;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav #logout{
+        float: none;
+    }
+    .topnav #profile{
+        float: none;
+    }
+    .registerbox{
+        max-width: 400px;
+        width: 100%;
+        height: 460px;
+        border-radius: 20px;
+        background: #fff;
+        color: #000000;
+        margin-top: 60px;
+        top: 50%; 
+        left: 83%;
+        position: fixed;
+        transform: translate(-50%, -50%);
+        box-sizing: border-box;
+        padding: 140px 30px;
+    }
+
+    .whitebox input{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .wrapper-walkin{
+        display: block;
+        position: relative;
+    }
+    
+
+    
+}
+
+/* For dashboard user page */
+.wrapper-dashboard{
+    width: auto;
+    border: 2px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    padding: 20px;
+    margin-top: 80px;
+    margin: 40px;
+}
+
+.wrapper-dashboard table{
+    border-collapse: collapse;
+    width: 100%;
+    border: #777;
+
+}
+  
+.wrapper-dashboard td, th{
+    text-align: center;
+}
+/* For services page */
+
+
+/* For bookslot */
+.wrapper-booking{
+    width: auto;
+    border: 2px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    padding: 20px;
+    margin-top: 80px;
+    margin: 40px;
+}
+
+.wrapper-booking textarea{
+    max-width: 570px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+.wrapper-booking input[type="text"]{
+    max-width: 530px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    height: 3px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrapper-booking input[type="date"]{
+    max-width: 530px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    height: 3px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrapper-booking select{
+    max-width: 570px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+.wrapper-booking input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+}
+.wrapper-booking input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+}
+
+.wrapper-booking input[type="button"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+}
+.wrapper-booking input[type="button"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+}
+
+.wrapper-booking table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #777;
+
+}
+  
+.wrapper-booking td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* For bookslot */
+
+/* Common styles for service items */
+.wrapper-services {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    display: inline-block;
+    padding: 10px;
+    margin: 60px 50px 0 100px;
+    border-radius: 15%;
+}
+
+.button-book {
+    position: relative;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 20px auto auto 41%;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+  
+.button-book:after {
+    content: "";
+    background: blueviolet;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1.0s
+}
+  
+.button-book:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+/* Profile */
+
+.box{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.66);
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.whitebox {
+    /* margin-left: 50px; */
+    max-width: 200px;
+    width: 100%;
+}
+
+.whitebox td {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 15px;
+}
+
+.whitebox input {
+    /* max-width: 30px; */
+    width: 100%;
+    height: 30px;
+    background-color: rgba(179, 163, 141, 0.742);
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn {
+    background-color: rgba(122, 103, 75, 0.742);
+    color: black;
+    border-radius: 10px;
+    max-width: 90px;
+    width: 100%;
+    padding: 10px;
+    border-style: none;
+    margin-left: 550px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* Profile */
+
+
+/* Walkin page */
+.wrapper-walkin{
+    width: auto;
+    max-width: 80%;
+    border: 2px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    padding: 20px;
+    margin-top: 80px;
+    margin: 40px;
+    position: relative;
+}
+
+.wrapper-walkin img, h3{
+    display: inline-block;
+}
+
+.wrapper-walkin h3{
+    position: absolute;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 40px 0px 50px 0px;
+    text-align: center;
+}
+.wrapper-walkin img{
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+}
+
+  
+/* Walkin page */
+
+
+
+/* Walkin page */
+.wrapper-socialmedia{
+    width: auto;
+    max-width: 100%;
+    border: 2px solid #ccc;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    display: block;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+
+.wrapper-socialmedia table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #777;
+
+}
+  
+.wrapper-socialmedia td, th {
+    text-align: center;
+    padding: 30px;
+}
+
+.wrapper-socialmedia img{
+    height: auto;
+    width: 100px;
+    max-width: 100%;
+}
+.wrapper-socialmedia a{
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+}
+.wrapper-socialmedia input[type="button"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+}
+.wrapper-socialmedia input[type="button"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+}
+  
+/* Walkin page */
+
+/* contact us */
+.wrapper-walkin input[type="button"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+    margin-top: 320px;
+}
+.wrapper-walkin input[type="button"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+}
+/* contact us */
+
+
+/* For feedback */
+
+.wrapper-feedback{
+    width: auto;
+    max-width: 800px;
+    border: 2px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.66);
+    color: black;
+    border-radius: 10px;
+    display: block;
+    justify-content: left;
+    padding: 30px;
+    margin-top: 80px;
+    margin: 40px;
+    font-size: 20px;
+}
+
+.wrapper-feedback input[type="text"]{
+    max-width: 400px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    height: 3px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrapper-feedback input[type="email"]{
+    max-width: 400px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    height: 3px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.wrapper-feedback select{
+    max-width: 570px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+}
+.wrapper-feedback textarea{
+    max-width: 570px;
+    margin-bottom: 30px;
+    background: rgba(179, 163, 141, 0.742);
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+.wrapper-feedback input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+}
+.wrapper-feedback input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+    font-weight: bold;
+}
+
+.wrapper-feedback input[type="button"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    background: rgba(179, 163, 141);
+    font-size: 18px;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 10px;
+    float: right;
+    margin-left: 20px;
+}
+.wrapper-feedback input[type="button"]:hover{
+    cursor: pointer;
+    background: rgb(228, 199, 159);
+    color: #000;
+    font-weight: bold;
+}
+
+.wrapper-feedback table {
+    border-collapse: collapse;
+    width: 100%;
+    border: #777;
+
+}
+  
+.wrapper-feedback td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+/* feedback */
+/* 
+
+
+Commentkan kalau ada add coding kat sini and untuk which UI page
+edit by? */
+
+/* Example: Dashboard page: Edit by: Azieyati */
