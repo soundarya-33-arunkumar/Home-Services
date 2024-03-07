@@ -1,4 +1,4 @@
-![image](https://github.com/Azieyati/Home-Services-Management-using-HTML5-and-PHP/assets/156404474/cc678270-1dec-4b1e-bd9a-1bda82f842eb)![image](https://github.com/Azieyati/Home-Services-Management-using-HTML5-and-PHP/assets/156404474/8b84d0f0-73d9-4326-90a6-44fc5b0d8b18)# Home-Services-Management-system-using-HTML5-and-PHP
+Home-Services-Management-system-using-HTML5-and-PHP
 
 ## Introduction
 Home Service Management System is a system that manages various home services that can enhance residence’s life including house cleaning, lawn maintenance, pest control. This system is accessible to admin and customers to schedule appointments and book the services accordingly.
